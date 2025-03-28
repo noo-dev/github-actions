@@ -13,8 +13,8 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: |
-            # Message with markdown
-            this is the message that will be displayed on users' first issue
+            # Salam, ${{ github.actor }}
+            Issue bilen habardar edendigiňiz üçin sag boluň
           pr-message: |
             Message that will be displayed on users' first pr.
             Look, a `code block` for markdown
